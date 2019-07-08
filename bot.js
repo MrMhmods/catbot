@@ -18,7 +18,7 @@ client.on('message', message => {
 
   if (message.content === prefix + 'cat') {
 
-    message.react(`🐈`)
+    message.react(`🐱`)
 
       message.channel.sendFile("http://thecatapi.com/api/images/get?format=src&type=png", "mystery-cat.png")
 
@@ -293,19 +293,7 @@ message.channel.send("`Error`:" + Julian)
 
 
 
-client.on("message", message => { //iTzMurtaja#8951
 
-  if(message.content.toLowerCase().includes("giveaway")) { //iTzMurtaja#8951
-
-    if(message.author.id == "595972345722568715" || message.author.id == "294882584201003009") { //iTzMurtaja#8951
-
-      message.react("🎉") //iTzMurtaja#8951
-
-    } //iTzMurtaja#8951 
-
-  } //iTzMurtaja#8951
-
-}) //iTzMurtaja#8951
 
 
 
